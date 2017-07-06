@@ -1,27 +1,6 @@
 # Zepto.js – a minimalist JavaScript library
 
-Zepto is a minimalist JavaScript library for modern browsers with a
-largely jQuery-compatible API. If you use jQuery, you already know how to use Zepto.
-
-See [zeptojs.com][] for an extended introduction, downloads
-and documentation.
-
-Zepto.js is licensed under the terms of the MIT License.
-
-Want to give us money or a tip? Don't.
-Instead please donate to [charity: water](http://charitywater.org/).
-
-## Building
-
-[![Build Status](https://secure.travis-ci.org/madrobby/zepto.svg?branch=master)](http://travis-ci.org/madrobby/zepto)
-
-The official site offers a download of the default distribution of Zepto. This
-is good for starting out. However, at some point you might want to add some
-optional modules and remove some of the default ones you don't need, to keep the
-size at a minimum. That's when you need to check out Zepto's source code and use
-the build commands. Alternatively you can use the web based [Zepto Builder](http://github.e-sites.nl/zeptobuilder/).
-
-You will need Node.js installed on your system.
+Mini Zepto build with `zepto event data` modules.
 
 ~~~ sh
 $ npm install
