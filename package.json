@@ -1,5 +1,5 @@
 {
-  "name": "zepto",
+  "name": "mini-zepto",
   "version": "1.2.0",
   "main": "dist/zepto.js",
   "homepage": "http://zeptojs.com",
@@ -8,12 +8,30 @@
     "dist": "coffee make dist",
     "start": "coffee test/server.coffee"
   },
-  "repository": "yuwenhui/mini-zepto",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yuwenhui/mini-zepto.git"
+  },
   "license": "MIT",
   "devDependencies": {
     "uglify-js": "2.4.x",
     "express": "3.1.x",
     "coffee-script": "1.5.x",
     "shelljs": "0.1.x"
-  }
+  },
+  "description": "Mini Zepto build with `zepto event data` modules.",
+  "bugs": {
+    "url": "https://github.com/yuwenhui/mini-zepto/issues"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {},
+  "keywords": [
+    "mini-zepto",
+    "zepto",
+    "custom-zepto"
+  ],
+  "author": "Mark"
 }
