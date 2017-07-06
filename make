@@ -120,3 +120,4 @@ minify = (source_code) ->
   ast.mangle_names()
   ast = ast.transform(compressor)
   return ast.print_to_string()
+
