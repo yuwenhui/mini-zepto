@@ -4,14 +4,14 @@ Mini Zepto build with `zepto event data` modules.
 
 ~~~ sh
 $ npm install
-$ npm run-script dist
+$ npm run dist
 
 # do a custom build
-$ MODULES="zepto event data" npm run-script dist
+$ MODULES="zepto event data" npm run dist
 
 # on Windows
 c:\zepto> SET MODULES=zepto event data
-c:\zepto> npm run-script dist
+c:\zepto> npm run dist
 ~~~
 
 The resulting files are:

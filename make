@@ -34,6 +34,7 @@ target.dist = ->
   target.build()
   target.minify()
   target.compress()
+  target.copy()
 
 target.build = ->
   cd __dirname
@@ -62,6 +63,11 @@ target.compress = ->
     report_size(zepto_gz)
     factor = fsize(zepto_js) / fsize(zepto_gz)
     echo "compression factor: #{format_number(factor)}"
+
+target.copy = ->
+	cd __dirname
+	rm './zepto.js'
+	cp '-R', 'dist/zepto.*', './'
 
 target.publish = ->
   tag = 'v' + package_version()
